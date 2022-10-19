@@ -19,3 +19,11 @@ body
     background-color:white;
 }
 
+.header1
+{
+    justify-content: center;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    align-items:center;
+}
