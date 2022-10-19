@@ -5,9 +5,16 @@ body
 
 .logo
 {
-    background-color: white;
+    
     margin-left:auto;
     margin-right:auto;
     display: flex;
     width: 15%;
+    
+}
+
+.header
+{
+    margin:0;
+    background-color:white;
 }
