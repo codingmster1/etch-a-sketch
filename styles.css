@@ -21,9 +21,10 @@ body
 
 .header1
 {
-    font-size: 25px;
-    font-family:Chalkduster, fantasy;
+    font-size: 32px;
+    font-family:American Typewriter, serif;
     font-style:italic;
+    font-variant: small-caps;
     justify-content: center;
     margin-left:auto;
     margin-right:auto;
@@ -49,7 +50,8 @@ body
   display:flex;
   justify-content:center;
   font-size:22px;
-  font-family:Chalkduster, fantasy;
+  font-family:American Typewriter, serif;
+  font-variant: small-caps;
   font-style:italic;
 }
 
