@@ -31,7 +31,15 @@ body
     align-items:center;
 }
 
-
+.gif 
+{
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    justify-content: center;
+    margin: 0;
+}
 
 .header2
 {
