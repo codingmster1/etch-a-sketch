@@ -21,8 +21,8 @@ body
 
 .header1
 {
-    font-size: 22px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    font-family:Chalkduster, fantasy;
     font-style:italic;
     justify-content: center;
     margin-left:auto;
@@ -33,7 +33,7 @@ body
 
 
 
-.header3
+.header2
 {
     margin: 0;
     justify-content:center;
