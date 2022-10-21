@@ -32,13 +32,47 @@ body
     
 }
 
+.header0
+{
+    justify-content:space-between;
+    color:white;
+    display:flex;
+}
+.nav li
+{
+    color: white;
+    margin-left:25px;
+}
+.nav a
+{
+    color: white;
+    display:block;
+
+}
+.nav 
+{
+    
+    list-style: none;
+    margin:0;
+    padding:0;
+    display:flex;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bolder;
+    font-size:20px;
+}
+
 h1
 {
     background-color:rgb(132, 185, 238);
     font-size:50px;
 }
 
-
+.draw
+{
+    font-family:cursive;
+    font-style:italic;
+    font-size:32px;
+}
 
 .header1
 {
