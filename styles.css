@@ -60,6 +60,24 @@ body
     align-items:center;
 }
 
+.controls button
+{
+    background-color:gray;
+    border:none;
+    border-radius: 3px;
+    padding: 6px 8px;
+    margin-left: 20px;
+    transition: all 0.3s;
+    cursor: pointer;
+    outline: none;
+}
+
+.controls button:hover
+{
+    background-color:rgb(248, 234, 41);
+    transition: all 0.3s;
+}
+
 .controls > div > p
 {
     color:rgb(248, 234, 41);
