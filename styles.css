@@ -45,10 +45,12 @@ body
     width: 1079px;
     height: 100px;
     border-radius: 0 0 20px 20px;
+    
 }
 
 .modes
 {
+    
     margin-left:20px;
 }
 
@@ -60,7 +62,7 @@ body
 
 .controls > div > p
 {
-    color:rgb(238, 23, 66);
+    color:rgb(248, 234, 41);
     font-weight:700;
     margin:0;
 }
