@@ -26,3 +26,52 @@ body
   line-height: 1;
   padding-top: 14px;
 }
+
+#grid-container
+{
+    display: inline-grid;
+    border:rgb(238, 23, 66);
+    border-width: 6px 100px 0;
+    grid-gap: 1px;
+}
+
+.controls 
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 80px;
+    width: 1079px;
+    height: 100px;
+    border-radius: 0 0 20px 20px;
+}
+
+.modes
+{
+    margin-left:20px;
+}
+
+.controls > div
+{
+    display:flex;
+    align-items:center;
+}
+
+.controls > div > p
+{
+    color:rgb(238, 23, 66);
+    font-weight:700;
+    margin:0;
+}
+
+#grid-container 
+{
+    display: inline-grid;
+    border: solid rgb(238, 23, 66);
+    border-width: 6px 100px 0;
+    grid-gap: 1px;
+
+}
+
+
