@@ -84,6 +84,39 @@ justify-content:center;
 
 }
 
+.color-modes button
+{
+    background-color:#fff;
+    border:none;
+    border-radius:3px;
+    padding: 6px 8px;
+    margin-left:20px;
+    cursor:pointer;
+    outline:none;
+}
+
+.gray
+{
+    font-family:monospace;
+    font-weight:bolder;
+    color: rgb(80, 75, 75);
+}
+
+.black
+{
+    font-family:monospace;
+    font-weight:bolder;
+    color:black;
+}
+
+.random
+{
+    font-family:monospace;
+    font-weight:bolder;
+    color:rgb(107, 42, 172);
+}
+
+
 .controls button:hover
 {
     background-color:rgb(248, 234, 41);
