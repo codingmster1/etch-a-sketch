@@ -126,6 +126,8 @@ justify-content:space-between;
 
 .controls
 {
+  font-family:'Times New Roman', Times, serif;
+  font-size:1rem;
   width:140px;
   margin: 150px 90px;
   float:left;
@@ -138,8 +140,18 @@ justify-content:space-between;
   background-color: #eb3945;
 }
 
+.controls div:hover
+{
+    background-color:aquamarine;
+    padding: 5px;
+    text-shadow: 0px 1px 1px;
+
+}
+
 .color-modes
 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1rem;
     justify-content:space-between;
     width:250px;
     margin:150px 90px;
@@ -152,6 +164,8 @@ justify-content:space-between;
     text-align:center;
     background-color:#eb3945;
 }
+
+
 
 
 
