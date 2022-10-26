@@ -6,6 +6,7 @@ body
     align-items:center;
     flex-direction: column;
     padding: 50px 0;
+    
 }
 
 
@@ -27,13 +28,6 @@ body
   padding-top: 14px;
 }
 
-#grid-container
-{
-    display: inline-grid;
-    border:rgb(238, 23, 66);
-    border-width: 6px 100px 0;
-    grid-gap: 1px;
-}
 
 .controls 
 {
@@ -52,12 +46,27 @@ body
 {
     
     margin-left:20px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.erase
+{
+justify-content:space-between;
 }
 
 .controls > div
 {
     display:flex;
     align-items:center;
+}
+
+.grid
+{
+    display:flex;
+    align-items:center;
+    margin-right: 400px;
 }
 
 .controls button
@@ -70,6 +79,8 @@ body
     transition: all 0.3s;
     cursor: pointer;
     outline: none;
+    
+
 }
 
 .controls button:hover
@@ -84,16 +95,28 @@ body
     font-weight:700;
     font-size: 25px;
     margin:0;
+    background-color: rgb(238, 23, 66);
 }
 
-#grid-container 
+.grid-container 
 {
     display: inline-grid;
     border: solid rgb(238, 23, 66);
     border-width: 6px 100px 0;
     grid-gap: 1px;
+    flex-direction:column;
+    align-items:center;
+    border-radius: 20px;
+    height:750px;
+    width:800px;
+    padding-bottom:10px;
+    display:flex;
+    
+
+    
 
 }
+
 
 
 
