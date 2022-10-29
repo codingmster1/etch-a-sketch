@@ -33,7 +33,7 @@ body
 {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: left;
     margin: 0 auto;
     padding: 0 80px;
     width: 1079px;
@@ -42,6 +42,10 @@ body
     
     
 }
+
+
+
+
 
 .modes
 {
@@ -52,7 +56,7 @@ body
     justify-content:space-between;
 }
 
-.erase
+.delete
 {
 justify-content:center;
 }
@@ -71,7 +75,17 @@ justify-content:center;
    
 }
 
+#buttons
+{
+    align-items:center;
+}
 
+.buttons > div
+{
+    align-items: center;
+    float:left;
+    justify-content:center;
+}
 
 
 
@@ -115,6 +129,7 @@ justify-content:center;
     color:black;
 }
 
+
 .random
 {
     font-family:monospace;
@@ -140,7 +155,7 @@ justify-content:center;
 
 #grid-container 
 {
-    display: inline-grid;
+    display:grid;
     border: solid rgb(238, 23, 66);
     border-width: 6px 100px 0;
     grid-gap: 1px;
@@ -157,13 +172,27 @@ justify-content:center;
 
 }
 
-.grid-container
+#grid-container
 {
-    display:flex;
+    display:grid;
     align-items:center;
     margin:0;
-    margin-left: 50px;
+    margin-right: 150px;
+    margin-left: 180px;
     justify-content:left;
+}
+
+#controls
+{
+    justify-content:left;
+    margin-left:180px;
+    float:left;
+}
+
+.grid
+{
+    justify-content: left;
+    float:left;
 }
 
 .controls
@@ -226,10 +255,7 @@ justify-content:center;
     background-color: red;
     transition: 0.3s;
 }
-.color-modes > button
-{
-    
-}
+
 
 .erase
 {
