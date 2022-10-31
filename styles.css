@@ -195,7 +195,7 @@ justify-content:center;
   width:140px;
   margin: 1 1 150px 90px;
   margin: 0 auto;
-  float:left;
+ 
   background-color:#fff;
   border: solid;
   border-width: 10px;
@@ -265,7 +265,7 @@ justify-content:center;
     font-style:italic;
     font-size: 1rem;
     justify-content:center;
-    width:100px;
+    width:90px;
     height: fit-content;
     border-radius: 20px;
     margin: 0 0 130px 80px;
