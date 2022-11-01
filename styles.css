@@ -21,8 +21,8 @@ img
 
 .header
 {
-    color:rgb(16, 9, 80);
-    background-color:rgb(118, 162, 243);
+    color:rgb(179, 41, 41);
+    background-color:rgb(105, 147, 226);
     font-size:55px;
 }
 
@@ -35,20 +35,13 @@ img
   padding-top: 14px;
 }
 
-.grid
-{
-    justify-content:space-between;
-}
-
-
-#grid
+.grid-container
 {
     justify-content:space-between;
     display:flex;
-    flex-wrap:wrap;
-    margin-bottom: 2rem;
-    
 }
+
+
 
 
 
