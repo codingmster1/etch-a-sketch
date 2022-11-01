@@ -11,7 +11,7 @@ body
 
 img
 {
-    background-color:cornflowerblue;
+    background-color:rgb(126, 164, 235);
     padding: 0 440px;
     display:flex;
     margin:0;
@@ -21,7 +21,7 @@ img
 
 .header
 {
-    color:rgb(17, 9, 94);
+    color:rgb(16, 9, 80);
     background-color:rgb(118, 162, 243);
     font-size:55px;
 }
@@ -35,9 +35,20 @@ img
   padding-top: 14px;
 }
 
+.grid
+{
+    justify-content:space-between;
+}
 
 
-
+#grid
+{
+    justify-content:space-between;
+    display:flex;
+    flex-wrap:wrap;
+    margin-bottom: 2rem;
+    
+}
 
 
 
