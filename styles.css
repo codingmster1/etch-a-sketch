@@ -9,7 +9,15 @@ body
     
 }
 
+img
+{
+    background-color:cornflowerblue;
+    padding: 0 435px;
+    display:flex;
+    margin:0;
 
+    
+}
 
 .header
 {
