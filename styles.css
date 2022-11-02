@@ -43,9 +43,19 @@ img
 
 .grid-container
 {
-    justify-content:space-between;
-    display:flex;
+    display: inline-grid;
+    border: solid red;
+    border-width: 6px 100px 0;
+    grid-gap: 1px;
+    background-color: grey;
 }
+
+.buttons
+{
+    display:flex;
+    justify-content:space-between;
+}
+
 
 
 
