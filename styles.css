@@ -11,7 +11,7 @@ body
 
 img
 {
-    background-color:rgb(126, 164, 235);
+    background-color:rgb(154, 177, 219);
     padding: 0 440px;
     display:flex;
     margin:0;
@@ -19,16 +19,22 @@ img
     
 }
 
-.header
+.heading
 {
-    color:rgb(179, 41, 41);
-    background-color:rgb(105, 147, 226);
-    font-size:55px;
+    color:rgb(240, 227, 57);
+    background-color:rgb(228, 43, 43);
+    border-radius:20px 20px 0 0;
+    width: 1080px;
+    height: 94px;
+    margin: 0 auto;
+    font-size:47px;
+    font-family:monospace;
+    
 }
 
-.heading 
+.header 
 {
-  font-size: 70px;
+  font-size: 47px;
   text-align: center;
   margin: 0;
   line-height: 1;
