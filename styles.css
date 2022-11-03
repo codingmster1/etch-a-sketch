@@ -8,39 +8,41 @@ body
 img
 {
     background-color:rgb(154, 177, 219);
-    padding: 0 440px;
+    padding: 0 435px;
     display:flex;
-    margin:0;
+    margin:0 auto;
 
     
 }
 
 .heading
 {
-    color:rgb(240, 227, 57);
-    background-color:rgb(228, 43, 43);
-    border-radius:20px 20px 0 0;
-    width: 1080px;
-    height: 94px;
-    margin: 0 auto;
-    font-size:47px;
-    font-family:monospace;
+    color:yellow;
+    text-align:center;
+    font-size:30px;
     
+    height: 94px;
+    margin: 0;
+    line-height: 1;
+    font-family:monospace;
+    padding-top:14px; 
 }
 
 .header 
 {
-  font-size: 47px;
-  text-align: center;
-  margin: 0;
-  line-height: 1;
-  padding-top: 14px;
+  width: 1079px;
+  background-color:rgb(228, 43, 43);
+  border-radius:20px 20px 0 0;
+  height:94px;
+  margin: 0 auto;
+  
+  
 }
 
 .grid-container
 {
     display: inline-grid;
-    border: solid red;
+    
     border-width: 6px 100px 0;
     grid-gap: 1px;
     background-color: grey;
@@ -49,7 +51,19 @@ img
 .buttons
 {
     display:flex;
-    justify-content:space-between;
+    justify-content:space-evenly;
+    align-items:center;
+    margin: 0 auto;
+    padding: 0 80px;
+    width: 920px;
+    height: 100px;
+    background-color:rgb(228, 43, 43);
+    border-radius: 0 0 20px 20px;
+}
+
+main 
+{
+    text-align:center;
 }
 
 
