@@ -98,7 +98,7 @@ img
     background-color: rgb(112, 112, 112);
 }
 
-.buttons
+.buttons 
 {
     display:flex;
     justify-content:space-evenly;
@@ -106,7 +106,7 @@ img
     margin: 0 auto;
     padding: 0 80px;
     width: 920px;
-    height: 40px;
+    height: 30px;
     background-color:rgb(228, 43, 43);
     border-radius: 0 0 20px 20px;
 }
