@@ -41,18 +41,57 @@ img
   
 }
 
-#grid
+
+
+#grid-container
 {
 
     margin-top:20px;
-    margin-left: 140px;
+    margin-left: 110px;
     width:800px;
-    height:auto;
+    height:800px;
     padding-bottom:30px;
     border-radius:1em;
-    box-shadow: 0px 0px 10px 10px;
+    box-shadow: 10px 10px 10px 10px;
    
 
+}
+
+#grid-wrapper
+{
+  margin: 0 auto;
+  width: 600px;
+  height: 400px;
+  background-color:#E8E8E8;
+  box-shadow: 0px -3px 5px
+}
+
+#grid h1
+{
+    text-shadow: 0px 1px 2px;
+}
+
+#grid-container
+{
+    
+    
+}
+#grid
+{
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 1100px;
+  height: 650px;
+  padding-bottom:30px;
+  background-color:#f80012;
+  border-radius:1em;
+  box-shadow: 0px 10px 10px
+  
+}
+
+#grid button
+{
+    box-shadow: 5px 10px 10px;
 }
 
 .grid-container
