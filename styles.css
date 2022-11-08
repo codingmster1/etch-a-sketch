@@ -71,17 +71,12 @@ img
     text-shadow: 0px 1px 2px;
 }
 
-#grid-container
-{
-    
-    
-}
 #grid
 {
   margin-top: 20px;
   margin-left: 10px;
   width: 1100px;
-  height: 650px;
+  height: 725px;
   padding-bottom:30px;
   background-color:#f80012;
   border-radius:1em;
@@ -111,7 +106,7 @@ img
     margin: 0 auto;
     padding: 0 80px;
     width: 920px;
-    height: 100px;
+    height: 40px;
     background-color:rgb(228, 43, 43);
     border-radius: 0 0 20px 20px;
 }
