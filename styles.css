@@ -61,11 +61,7 @@ img
     border-radius: 0 0 20px 20px;
 }
 
-.controls > div 
-{
-    display:flex;
-    align-items:center;
-}
+
 
 .buttons button
 {
@@ -122,6 +118,20 @@ main
     text-align:center;
 }
 
+
+
+#grid-container {
+    display:inline-grid;
+    border: solid red;
+    border-width: 6px 100px 0;
+    grid-gap: 1px;
+    background-color: #AAAAAA;
+}
+
+#grid-container > div
+{
+   background-color: #D8D8D8;
+}
 
 
 
