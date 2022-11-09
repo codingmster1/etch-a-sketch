@@ -1,7 +1,7 @@
 body
 {
   
-        
+        margin: 0 auto;
         justify-content: center;
         align-items: center;
         display:flex;
@@ -22,8 +22,8 @@ body
 }
 .grid-container
 {
-    width: 500px;
-    height: 500px;
+    width: 545px;
+    height: 545px;
     display: grid;
 
 }
