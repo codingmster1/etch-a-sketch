@@ -9,12 +9,7 @@ body
        
     
 }
-h1
-{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
+
 
 
 .heading
@@ -22,8 +17,8 @@ h1
     align-items: center;
     display: flex;
     flex-direction:row;
-    width: 550px;
-    justify-content: space-around;
+    width: 500px;
+    justify-content:space-evenly;
 }
 .grid-container
 {
