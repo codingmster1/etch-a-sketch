@@ -47,8 +47,25 @@ h1
     height:50px;
     border-radius:50px;
     position:absolute;
-    height:
+    bottom:5%;
+    top:145%;
+   
     right:255px;
+    box-shadow: 0px 8px 5px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 8px 5px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0px 8px 5px rgba(0,0,0,0.6);
+    -o-box-shadow: 0px 8px 5px rgba(0,0,0,0.6);
+  }
+
+  #leftnob{
+    background-color:#fff;
+    width:50px;
+    height:50px;
+    border-radius:50px;
+    position:absolute;
+    bottom: 5%;
+    top: 145%;
+    left:255px;
     box-shadow: 0px 8px 5px rgba(0,0,0,0.6);
     -moz-box-shadow: 0px 8px 5px rgba(0,0,0,0.6);
     -webkit-box-shadow: 0px 8px 5px rgba(0,0,0,0.6);
@@ -67,7 +84,12 @@ img
 }
 
 
-
+#color
+{
+    border-radius: 5px;
+    border: 2px solid black;
+    
+}
 
 .buttons 
 {
@@ -77,6 +99,15 @@ img
     align-items:center;
     display:flex;
     margin-bottom:20px;
+    border: 25px;
+    
+    
+}
+
+.restart
+{
+    border: 2px solid black;
+    border-radius: 5px;
 }
 
 
