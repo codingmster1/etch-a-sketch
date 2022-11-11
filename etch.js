@@ -13,5 +13,9 @@ const drawGrid = (gridSize) => {
     grid.appendChild(pixel);
     }
 
-    grid.style.gridTemplateColumns = 'repeat($(gridSize), auto)'
+    grid.style.gridTemplateColumns = repeat($(gridSize), auto);
+    grid.style.gridTemplateRows = repeat($(gridSize), auto);
 }
+
+drawGrid(gridSize);
+
