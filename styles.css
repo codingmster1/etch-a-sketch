@@ -11,6 +11,8 @@ body
     
 }
 
+
+
 h1
 {
     font-size:40px;
@@ -89,6 +91,7 @@ img
   border: none;
   border-radius: 5px;
   padding: 8px 10px;
+  border: solid 2px black;
 }
 
 
