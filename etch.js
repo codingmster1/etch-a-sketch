@@ -1,21 +1,30 @@
-const buttons = document.querySelectorAll('buttons');
-const grid = document.querySelector('.grid');
+//const grid = document.querySelector('.grid') //
+//const containerDiv = document.querySelector('#container');
 
-let pixel = '';
-let gridSize = 50;
+//function createDivs(col, rows) {
+    //for(let i = 0; i < (col * rows); i++){
+       // const div = document.createElement('div')
+        
+        //grid.style.gridTemplateColumns = 'repeat(${col}, ifr);'
+       // grid.style.gridTemplateRows = 'repeat(${col}, ifr);'
+       // grid.appendChild(div).classList.add('box')
+   // }
+//}
 
-const drawGrid = (gridSize) => {
-    for(i = 0; i < gridSize ** 2; i++){
+//createDivs(16,16)
 
-    pixel = document.createElement('div');
-    pixel.classList.add('pixel');
-    pixel.style.backgroundColor = "white";
-    grid.appendChild(pixel);
-    }
 
-    grid.style.gridTemplateColumns = repeat($(gridSize), auto);
-    grid.style.gridTemplateRows = repeat($(gridSize), auto);
+const containerDiv = document.querySelector("#container");
+let gridCount = 0;
+
+while (gridCount < 32) {
+    const gridDivs = document.createElement("div");
+    gridDivs.classList.add("content");
+    containerDiv.appendChild(gridDivs);
+    gridCount++;
+    console.log(gridCount);
 }
 
-drawGrid(gridSize);
+
+
 

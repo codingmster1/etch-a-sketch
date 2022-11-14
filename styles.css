@@ -1,4 +1,6 @@
-body
+
+
+body 
 {
   
         margin: 0 auto;
@@ -12,12 +14,17 @@ body
 }
 
 
+#container
+{
+  display:grid;
+}
 
-h1
+
+h1 
 {
     font-size:40px;
     background-color:rgb(218, 13, 13);
-    color:rgb(247, 247, 25);
+    color:rgb(247, 247, 25);   
     border-radius: 5px;
 }
 
@@ -41,7 +48,11 @@ h1
     margin-bottom:2%;
     box-shadow: 10px 10px 5px rgb(66, 51, 51);
     border-radius: 2%;
+  
+   
 }
+
+
 
 #rightnob{
     background-color:#fff;
