@@ -48,6 +48,40 @@ function makeGrid(rows, columns) {
     // fillSquares();
 }
 
+function createButton() {
+    const buttonDiv = document.querySelector("#buttonDiv");
+    const resetButton = document.createElement("button");
+    resetButton.textContent = "Reset Grid";
+    resetButton.style.margin = "20px";
+
+    buttonDiv.appendChild(resetButton);
+
+    resetButton.addEventListener('click', () => {
+        document.querySelectorAll(".grid-item").forEach(e => e.remove())
+        let userGridInput = Prompt("Please enter the number of grid squares per side. (Max is 100): ");
+        if (userGridInput > 100) {
+            alert("ERROR! Grid size can not be over 100!");
+            return;
+        }
+
+        rows = userGridInput;
+        columns = userGridInput;
+        makeGrid(rows, columns);
+    })
+
+
+
+   // makeGrid(16,16);
+}
+
+
+
+
+
+
+
+
+
 // function fillSquares() {
  //   let squareFilled = document.querySelectorAll(".grid-item");
  //   squareFilled.addEventListener("mouseover", () => {
@@ -60,7 +94,7 @@ function makeGrid(rows, columns) {
 
 
 
-makeRows(16, 16);
+//makeGrid(16, 16);
 
 
 
