@@ -37,7 +37,19 @@ function makeGrid(rows, columns) {
         square.style.overflow = "hidden";
         containerDiv.appendChild(square).className = "grid-item";
         square.addEventListener("mouseover", () => {
-        square.style.backgroundColor = "black";
+
+            if (square.style.backgroundColor == "") {
+                let color = getRandomColor();
+                square.style.backgroundColor = color;
+                square.style.opacity = ".10";
+                return square.style.backgroundColor;
+            }
+
+            if ((square.style.backgroundColor !== "") && (square.style.opacity <= "0.90")) {
+                square.style.opacity = parseFloat(square.style.opacity) + .10;
+                return square.style.backgroundColor;
+            }
+        //square.style.backgroundColor = "black";
         //console.log(square); 
 
         })
@@ -47,6 +59,8 @@ function makeGrid(rows, columns) {
     createButton();
     // fillSquares();
 }
+
+
 
 function createButton() {
     const buttonDiv = document.querySelector("#buttonDiv");
