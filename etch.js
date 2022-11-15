@@ -58,7 +58,7 @@ function createButton() {
 
     resetButton.addEventListener('click', () => {
         document.querySelectorAll(".grid-item").forEach(e => e.remove());
-        let userGridInput = Prompt("Please enter the number of grid squares per side. (Max is 100): ");
+        let userGridInput = prompt("Please enter the number of grid squares per side. Max is 100: ");
         if (userGridInput > 100) {
             alert("ERROR! Grid size can not be over 100!");
             return;
