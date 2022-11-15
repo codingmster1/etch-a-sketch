@@ -32,7 +32,7 @@ h1
 
 #container {
  
-  
+  margin: 2rem;
   display:flex;
   align-items:center;
   display:grid;
@@ -52,7 +52,9 @@ h1
 
 #buttonDiv
 {
-  
+  background-color: white;
+  border: 1px solid black;
+  margin: 1rem;
   display:flex;
   align-items: center;
 }
