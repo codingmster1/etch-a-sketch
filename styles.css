@@ -16,6 +16,17 @@ body
     
 }
 
+h1
+{
+  font-size: 60px !important;
+}
+
+.heading 
+{
+  font-size:20px !important;
+  font-family:cursive!important;
+} 
+
 #container {
  
   
