@@ -17,24 +17,34 @@
 const containerDiv = document.querySelector("#container");
 
 
-function makeRows(rows, columns) {
+function makeGrid(rows, columns) {
+
+    while (document.querySelectior("button") !== null){
+        document.querySelector("button").remove();
+    }
     containerDiv.style.setProperty("--grid-rows", rows);
     containerDiv.style.setProperty("--grid-columns", columns);
+    containerDiv.style.width = "960px";
+    containerDiv.style.overflow = "hidden";
    // console.log(containerDiv);
    // console.log(rows);
    // console.log(columns);
     for (i = 0; i < (rows * columns); i++) {
         let square = document.createElement("div");
         //square.innerText = (i + 1); //
+        square.style.minHeight = "0";
+        square.style.minWidth = "0";
+        square.style.overflow = "hidden";
         containerDiv.appendChild(square).className = "grid-item";
         square.addEventListener("mouseover", () => {
         square.style.backgroundColor = "black";
-        console.log(square);
+        //console.log(square); 
 
         })
         
 
     }
+    createButton();
     // fillSquares();
 }
 
