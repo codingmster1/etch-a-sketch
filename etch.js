@@ -37,17 +37,17 @@ function makeGrid(rows, columns) {
         // Event Listener for background color
         square.addEventListener("mouseover", () => {
 
-            // If background color is present applies random color at 10% opacity
+            // If background color is present applies random color at 50% opacity
             if (square.style.backgroundColor == "") {
                 let color = getRandomColor();
                 square.style.backgroundColor = color;
-                square.style.opacity = ".10";
+                square.style.opacity = ".50";
                 return square.style.backgroundColor;
             }
 
-            // additional opacity at 10%, stops at 1.0 if background color is present
+            // additional opacity at 50%, stops at 1.0 if background color is present
             if ((square.style.backgroundColor !== "") && (square.style.opacity <= "0.90")) {
-                square.style.opacity = parseFloat(square.style.opacity) + .10;
+                square.style.opacity = parseFloat(square.style.opacity) + .50;
                 return square.style.backgroundColor;
             }
         //square.style.backgroundColor = "black";
