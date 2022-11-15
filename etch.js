@@ -26,9 +26,6 @@ function makeGrid(rows, columns) {
     containerDiv.style.setProperty("--grid-columns", columns);
     containerDiv.style.width = "960px";
     containerDiv.style.overflow = "hidden";
-   // console.log(containerDiv);
-   // console.log(rows);
-   // console.log(columns);
     for (i = 0; i < (rows * columns); i++) {
         let square = document.createElement("div");
         //square.innerText = (i + 1); //
@@ -36,8 +33,11 @@ function makeGrid(rows, columns) {
         square.style.minWidth = "0";
         square.style.overflow = "hidden";
         containerDiv.appendChild(square).className = "grid-item";
+        
+        // Event Listener for background color
         square.addEventListener("mouseover", () => {
 
+            // If background color is present applies random color at 10% opacity
             if (square.style.backgroundColor == "") {
                 let color = getRandomColor();
                 square.style.backgroundColor = color;
@@ -45,19 +45,20 @@ function makeGrid(rows, columns) {
                 return square.style.backgroundColor;
             }
 
+            // additional opacity at 10%, stops at 1.0 if background color is present
             if ((square.style.backgroundColor !== "") && (square.style.opacity <= "0.90")) {
                 square.style.opacity = parseFloat(square.style.opacity) + .10;
                 return square.style.backgroundColor;
             }
         //square.style.backgroundColor = "black";
-        //console.log(square); 
+      
 
         })
         
 
     }
     createButton();
-    // fillSquares();
+    
 }
 
 
