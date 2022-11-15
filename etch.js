@@ -74,6 +74,12 @@ function createButton() {
    
 }
 
+function getRandomColor() {
+    let o = Math.round;
+    let r = Math.random;
+    let s = 255;
+    return "rgb(" + o(r()*s) + ',' + o(r()*s) + ',' + o(r()*s) + ')';
+}
 
 
 makeGrid(16,16);
