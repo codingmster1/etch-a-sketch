@@ -19,7 +19,7 @@ const containerDiv = document.querySelector("#container");
 
 function makeGrid(rows, columns) {
 
-    while (document.querySelectior("button") !== null){
+    while (document.querySelector("button") !== null){
         document.querySelector("button").remove();
     }
     containerDiv.style.setProperty("--grid-rows", rows);
@@ -57,7 +57,7 @@ function createButton() {
     buttonDiv.appendChild(resetButton);
 
     resetButton.addEventListener('click', () => {
-        document.querySelectorAll(".grid-item").forEach(e => e.remove())
+        document.querySelectorAll(".grid-item").forEach(e => e.remove());
         let userGridInput = Prompt("Please enter the number of grid squares per side. (Max is 100): ");
         if (userGridInput > 100) {
             alert("ERROR! Grid size can not be over 100!");
@@ -71,12 +71,12 @@ function createButton() {
 
 
 
-   // makeGrid(16,16);
+   
 }
 
 
 
-
+makeGrid(16,16);
 
 
 
