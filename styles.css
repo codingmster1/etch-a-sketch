@@ -31,7 +31,7 @@ body
 
 
 .grid-item {
-  background-color: rgb(165, 162, 162);
+  background-color: rgb(224, 219, 219);
   padding: 1em;
   border: 1px solid white;
   text-align: center;
@@ -39,6 +39,7 @@ body
 
 #buttonDiv
 {
+  
   display:flex;
   align-items: center;
 }
