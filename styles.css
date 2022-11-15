@@ -52,17 +52,36 @@ h1
 
 #buttonDiv
 {
+  padding: 6px 8px;
+  box-shadow: 0 0 50px #2d11ad, 0 0 5px #3c139c inset;
+  border-radius: 10px;
   background-color: white;
-  border: 1px solid black;
+  border: 1px solid rgb(5, 4, 4);
   margin: 1rem;
   display:flex;
   align-items: center;
+  font-weight: bolder;
+}
+
+.button
+{
+  
+  font-weight: bolder;
+  border: 1px solid rgb(5, 4, 4);
+
 }
 
 
-
-
-
+button{
+  padding: 0 20px;
+  font-size:20px;
+  font-family:cursive;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  width: 150px;
+  background-color:rgb(194, 238, 238);
+}
 
 
 
