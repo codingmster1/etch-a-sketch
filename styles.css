@@ -18,9 +18,11 @@ body
 
 h1
 {
- 
+
   background-color:rgb(151, 183, 241);
-  font-size: 80px !important;
+  font-size: 100px !important;
+  font-family: 'Tangerine', serif;
+  text-shadow: 4px 4px 4px rgb(212, 210, 210); 
 }
 
 .heading 
@@ -63,6 +65,7 @@ h1
   display:flex;
   align-items: center;
   font-weight: bolder;
+  
 }
 
 .button
