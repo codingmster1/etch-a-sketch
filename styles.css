@@ -19,8 +19,8 @@ body
 h1
 {
 
-  background-color:rgb(151, 183, 241);
-  font-size: 100px !important;
+  /*background-color:rgb(151, 183, 241);*/
+  font-size: 115px !important;
   font-family: 'Tangerine', serif;
   text-shadow: 4px 4px 4px rgb(212, 210, 210); 
 }
@@ -57,14 +57,15 @@ h1
 #buttonDiv
 {
   padding: 6px 8px;
-  box-shadow: 0 0 50px #2d11ad, 0 0 5px #3c139c inset;
+  box-shadow: 0 0 50px #5841be, 0 0 5px #7551ca inset;
   border-radius: 10px;
-  background-color: white;
+  /*background-color: white;*/
   border: 1px solid rgb(5, 4, 4);
   margin: 1rem;
   display:flex;
   align-items: center;
   font-weight: bolder;
+  font-family: 'Dosis', serif !important;
   
 }
 
@@ -78,6 +79,7 @@ h1
 
 
 button{
+  font-family: 'Dosis', sans-serif !important;
   padding: 0 20px;
   font-size:20px;
   font-family:cursive;
@@ -85,7 +87,7 @@ button{
   border-radius: 5px;
   border: none;
   width: 150px;
-  background-color:rgb(194, 238, 238);
+  /*background-color:rgb(194, 238, 238);*/
 }
 
 
